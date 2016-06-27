@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9ED52D1CB7C9F400A2B123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ED52C1CB7C9F400A2B123 /* main.m */; };
+		CC9ED5351CB7CA1100A2B123 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ED5341CB7CA1100A2B123 /* Car.m */; };
+		CC9ED5381CB7CA8E00A2B123 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ED5371CB7CA8E00A2B123 /* Tire.m */; };
+		CC9ED53B1CB7DC1C00A2B123 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ED53A1CB7DC1C00A2B123 /* Engine.m */; };
+		CCD6924E1CB8926F009B96E9 /* AllWeatherTire.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6924D1CB8926F009B96E9 /* AllWeatherTire.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC9ED5271CB7C9F400A2B123 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC9ED5291CB7C9F400A2B123 /* 崔世强作业160408 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "崔世强作业160408"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9ED52C1CB7C9F400A2B123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC9ED5331CB7CA1100A2B123 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CC9ED5341CB7CA1100A2B123 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		CC9ED5361CB7CA8E00A2B123 /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		CC9ED5371CB7CA8E00A2B123 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		CC9ED5391CB7DC1C00A2B123 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		CC9ED53A1CB7DC1C00A2B123 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		CCD6924C1CB8926F009B96E9 /* AllWeatherTire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllWeatherTire.h; sourceTree = "<group>"; };
+		CCD6924D1CB8926F009B96E9 /* AllWeatherTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllWeatherTire.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9ED5261CB7C9F400A2B123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9ED5201CB7C9F400A2B123 = {
+			isa = PBXGroup;
+			children = (
+				CC9ED52B1CB7C9F400A2B123 /* 崔世强作业160408 */,
+				CC9ED52A1CB7C9F400A2B123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9ED52A1CB7C9F400A2B123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9ED5291CB7C9F400A2B123 /* 崔世强作业160408 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9ED52B1CB7C9F400A2B123 /* 崔世强作业160408 */ = {
+			isa = PBXGroup;
+			children = (
+				CC9ED52C1CB7C9F400A2B123 /* main.m */,
+				CC9ED5331CB7CA1100A2B123 /* Car.h */,
+				CC9ED5341CB7CA1100A2B123 /* Car.m */,
+				CC9ED5361CB7CA8E00A2B123 /* Tire.h */,
+				CC9ED5371CB7CA8E00A2B123 /* Tire.m */,
+				CC9ED5391CB7DC1C00A2B123 /* Engine.h */,
+				CC9ED53A1CB7DC1C00A2B123 /* Engine.m */,
+				CCD6924C1CB8926F009B96E9 /* AllWeatherTire.h */,
+				CCD6924D1CB8926F009B96E9 /* AllWeatherTire.m */,
+			);
+			path = "崔世强作业160408";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9ED5281CB7C9F400A2B123 /* 崔世强作业160408 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9ED5301CB7C9F400A2B123 /* Build configuration list for PBXNativeTarget "崔世强作业160408" */;
+			buildPhases = (
+				CC9ED5251CB7C9F400A2B123 /* Sources */,
+				CC9ED5261CB7C9F400A2B123 /* Frameworks */,
+				CC9ED5271CB7C9F400A2B123 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "崔世强作业160408";
+			productName = "崔世强作业160408";
+			productReference = CC9ED5291CB7C9F400A2B123 /* 崔世强作业160408 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9ED5211CB7C9F400A2B123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC9ED5281CB7C9F400A2B123 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = CC9ED5241CB7C9F400A2B123 /* Build configuration list for PBXProject "崔世强作业160408" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC9ED5201CB7C9F400A2B123;
+			productRefGroup = CC9ED52A1CB7C9F400A2B123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9ED5281CB7C9F400A2B123 /* 崔世强作业160408 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9ED5251CB7C9F400A2B123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9ED5351CB7CA1100A2B123 /* Car.m in Sources */,
+				CC9ED53B1CB7DC1C00A2B123 /* Engine.m in Sources */,
+				CC9ED5381CB7CA8E00A2B123 /* Tire.m in Sources */,
+				CC9ED52D1CB7C9F400A2B123 /* main.m in Sources */,
+				CCD6924E1CB8926F009B96E9 /* AllWeatherTire.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC9ED52E1CB7C9F400A2B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC9ED52F1CB7C9F400A2B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC9ED5311CB7C9F400A2B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC9ED5321CB7C9F400A2B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9ED5241CB7C9F400A2B123 /* Build configuration list for PBXProject "崔世强作业160408" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9ED52E1CB7C9F400A2B123 /* Debug */,
+				CC9ED52F1CB7C9F400A2B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9ED5301CB7C9F400A2B123 /* Build configuration list for PBXNativeTarget "崔世强作业160408" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9ED5311CB7C9F400A2B123 /* Debug */,
+				CC9ED5321CB7C9F400A2B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9ED5211CB7C9F400A2B123 /* Project object */;
+}

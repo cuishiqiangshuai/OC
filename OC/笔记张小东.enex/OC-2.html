@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.6 (453323)"/><meta name="altitude" content="114.7771759033203"/><meta name="author" content="张小东"/><meta name="created" content="2016-03-29 07:53:57 +0000"/><meta name="latitude" content="34.82035131760687"/><meta name="longitude" content="113.5582614781181"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2016-03-30 06:59:46 +0000"/><title>OC-2</title></head><body>
+<div><span style="color: rgb(255, 38, 0);"><span style="font-size: 18px;">//@protected 受保护的，OC默认属性修饰，只能被本类和子类访问</span></span></div>
+<div><span style="color: rgb(255, 38, 0);"><span style="font-size: 18px;">//@public       公共的，所有的地方都可以使用</span></span></div>
+<div><span style="color: rgb(255, 38, 0);"><span style="font-size: 18px;">//@privated    私有的，只可以在本类使用</span></span></div>
+<div><span style="color: rgb(255, 38, 0);"><span style="font-size: 18px;">//@package    一般用于系统库的封装中</span></span></div>
+<div><span style="color: rgb(255, 38, 0);"><span style="font-size: 18px;">//@property    </span></span></div>
+<div><span style="font-size: 18px;">@interface Time:NSObject</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     @property int _hour;</span></div>
+<div><span style="font-size: 18px;">     int _minute;</span></div>
+<div><span style="font-size: 18px;">     int _second;<br/></span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">//设置时间的方法(setter)</span></div>
+<div><span style="font-size: 18px;">-(void)setHour:(int)hour;</span></div>
+<div><span style="font-size: 18px;">-(void)setHour:(int)hour;</span></div>
+<div><span style="font-size: 18px;">-(void)setHour:(int)hour;</span></div>
+<div><span style="font-size: 18px;">//显示时间</span></div>
+<div><span style="font-size: 18px;">-(void)showTime;</span></div>
+<div><span style="font-size: 18px;">@end</span></div>
+<div><span style="font-size: 18px;">@implementation Time</span></div>
+<div><span style="font-size: 18px;">-(void)showTime</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     NSLog(@“now is %d:%d:%d”,_hour,_minute,_second);</span><br/></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">@end</span></div>
+</body></html>

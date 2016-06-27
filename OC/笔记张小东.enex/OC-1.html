@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.6 (453323)"/><meta name="altitude" content="114.7130432128906"/><meta name="author" content="张小东"/><meta name="created" content="2016-03-29 06:32:46 +0000"/><meta name="latitude" content="34.82034356171953"/><meta name="longitude" content="113.5582175590925"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2016-03-30 00:36:53 +0000"/><title>OC-1</title></head><body>
+<div><span style="font-size: 18px;">#import&lt;Foundation/Foundation.h&gt;</span></div>
+<div><span style="font-size: 18px;">//class name 声明的类名，： 表示继承， superclass表示当前类的父类     NSObject是OC中所有类的父类！</span></div>
+<div><span style="font-size: 18px;">//@interface 表示类的声明！声明一个接口</span></div>
+<div><span style="font-size: 18px;">@interface Person ： NSObject     //声明了一个类Person继承自NSObject</span></div>
+<div><span style="font-size: 18px;">{     NSString*    _name；</span></div>
+<div><span style="font-size: 18px;">      int     _age；</span></div>
+<div><span style="font-size: 18px;">      double     _height；<br/></span></div>
+<div><span style="font-size: 18px;">}//类的成员变量（属性！）</span></div>
+<div><span style="font-size: 18px;">//声明行为（方法）</span></div>
+<div><span style="font-size: 18px;">-（void）eat：（NSString *）food；//- 表示对象方法（实例方法），函数无返回值，函数名eat</span></div>
+<div><span style="font-size: 18px;">-（void）sleep；</span></div>
+<div><span style="font-size: 18px;">-（void）play；</span></div>
+<div><span style="font-size: 18px;">//带参数方法的声明</span></div>
+<div><span style="font-size: 18px;">//1.设置属性的方法（setter）</span></div>
+<div><span style="font-size: 18px;">-（void</span><span style="font-size: 18px;">）setName:（NSString *）name；//：表示参数，有几个冒号表示有几个参数，参数的类型与成员变量保持一致！ 方法名  steName：</span></div>
+<div><span style="font-size: 18px;">-（void）setAge：（int）age；</span></div>
+<div><span style="font-size: 18px;">-（void）setHeight：（double）height；</span></div>
+<div><span style="font-size: 18px;">//2.获得属性的方法getter     需要返回值！     返回值的类型就是属性的类型     直接返回成员变量</span></div>
+<div><span style="font-size: 18px;">-（NSString *）getName；</span></div>
+<div><span style="font-size: 18px;">-（int）getAge；</span></div>
+<div><span style="font-size: 18px;">-（double）getHeight；</span></div>
+<div><span style="font-size: 18px;">@end//表示类的声明结束了，不可省略！</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">//@implementation表示方法的具体实现</span></div>
+<div><span style="font-size: 18px;">@implementation Person//实现Person类里面的方法具体是干什么</span></div>
+<div><span style="font-size: 18px;">-（void）eat ：（NSString *）food</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     NSLog（@“%@ is eating %@”，_name，food</span><span style="font-size: 18px;">）；</span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">-（void）sleep</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     NSLog（@“is slepping”）；<br/></span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">-（void）play</span></div>
+<div><span style="font-size: 18px;">     NSLog（@“is da dou dou”）；</span></div>
+<div><span style="font-size: 18px;">//带参数方法的实现</span></div>
+<div><span style="font-size: 18px;">//1.setter方法的实现     用形参给属性赋值！</span></div>
+<div><span style="font-size: 18px;">-（void）setName：（NSString *）name</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     _name=name；<br/></span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">-（void）setAge：（NSString *）age</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     _age=age；<br/></span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">-（void）setHeight：（NSString *）height</span></div>
+<div>
+<div><span style="font-size: 18px;">{</span></div>
+</div>
+<div><span style="font-size: 18px;">     _</span><span style="font-size: 18px;">height</span><span style="font-size: 18px;">=</span><span style="font-size: 18px;">height</span><span style="font-size: 18px;">；</span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">//2.getter方法的实现</span></div>
+<div><span style="font-size: 18px;">-（NSString *）getName</span></div>
+<div><span style="font-size: 18px;">{</span></div>
+<div><span style="font-size: 18px;">     return _name；<br/></span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">-（int）getAge</span></div>
+<div>
+<div><span style="font-size: 18px;">{</span></div>
+</div>
+<div><span style="font-size: 18px;">     return _age；<br/></span></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">-（double）getHeight</span></div>
+<div>
+<div><span style="font-size: 18px;">{</span></div>
+</div>
+<div><span style="font-size: 18px;">     return _height；</span></div>
+<div>
+<div><span style="font-size: 18px;">}</span></div>
+</div>
+<div><span style="font-size: 18px;">@end</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">int main（）</span></div>
+<div><span style="font-size: 18px;">{@autoreleasepool{</span></div>
+<div><span style="font-size: 18px;">          //创建对象[]表示发送消息，固定格式[类名/对象名 方法名]</span></div>
+<div><span style="font-size: 18px;">     Person* p1=[Person new];//new表示创建一个对象</span></div>
+<div><span style="font-size: 18px;">     //设置属性<br/></span></div>
+<div><span style="font-size: 18px;">     [p1 setName:@“小明”]；</span></div>
+<div><span style="font-size: 18px;">     [p1 setAge:21]</span><span style="font-size: 18px;">;</span></div>
+<div><span style="font-size: 18px;">     [p1 setHeight:178];</span></div>
+<div><span style="font-size: 18px;">     //方法的调用</span></div>
+<div><span style="font-size: 18px;">     [p1 eat:@“面包”]；</span></div>
+<div><span style="font-size: 18px;">     [p1 sleep];</span></div>
+<div><span style="font-size: 18px;">     [p1 play];</span></div>
+<div><span style="font-size: 18px;">     //获得属性</span></div>
+<div><span style="font-size: 18px;">     NSLog(@“name is %@,age is %d,height is %g”,[p1 getName],[p1 getAge],[p1 getHeight]);</span><br/></div>
+<div><span style="font-size: 18px;">}</span></div>
+<div><span style="font-size: 18px;">return 0；</span></div>
+<div><span style="font-size: 18px;">}</span></div>
+</body></html>

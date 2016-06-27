@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.6 (453323)"/><meta name="altitude" content="116.1150894165039"/><meta name="author" content="2431735199@qq.com"/><meta name="created" content="2016-03-17 08:31:10 +0000"/><meta name="latitude" content="34.82027588962487"/><meta name="longitude" content="113.5584600033158"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2016-03-18 03:03:42 +0000"/><title>.sh与.c与交换位置</title></head><body>
+<div><span style="font-size: 18px;">.sh为系统文件</span></div>
+<div><span style="font-size: 18px;">.c为程序文件</span></div>
+<div><span style="font-size: 18px;">     方法一</span></div>
+<div><span style="font-size: 18px;">int tmp=a;</span></div>
+<div><span style="font-size: 18px;">a=b;</span></div>
+<div><span style="font-size: 18px;">b=tmp;</span></div>
+<div><span style="font-size: 18px;">     方法二</span></div>
+<div><span style="font-size: 18px;">a=a+b;</span></div>
+<div><span style="font-size: 18px;">b=a-b;</span></div>
+<div><span style="font-size: 18px;">a=a-b;</span></div>
+<div><span style="font-size: 18px;">     方法三</span></div>
+<div><span style="font-size: 18px;">a=a^b;</span></div>
+<div><span style="font-size: 18px;">b=a^b;</span></div>
+<div><span style="font-size: 18px;">a=a^b;<span style="color: rgb(0, 150, 255);">//^异或操作：相同为0，不同为1，以二进制代码进行计算</span></span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+</body></html>
